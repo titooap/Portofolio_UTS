@@ -19,7 +19,6 @@ body {
     margin-right: 5px;
 }
 
-/* Tambahan responsivitas */
 @media (max-width: 768px) {
     .social-links .btn {
         width: 100%;
