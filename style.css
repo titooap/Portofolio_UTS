@@ -1,0 +1,28 @@
+body {
+    padding-top: 56px;
+}
+
+.portfolio-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.social-links .btn {
+    margin-bottom: 10px;
+}
+
+.social-links .btn i {
+    margin-right: 5px;
+}
+
+/* Tambahan responsivitas */
+@media (max-width: 768px) {
+    .social-links .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
